@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		869A1E8F1ECE7A9B00AE0756 /* potato-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 869A1E8E1ECE7A9B00AE0756 /* potato-icon.png */; };
 		86B3C9C71ECE6F7400B9D9C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B3C9C61ECE6F7400B9D9C9 /* AppDelegate.swift */; };
 		86B3C9C91ECE6F7400B9D9C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B3C9C81ECE6F7400B9D9C9 /* ViewController.swift */; };
 		86B3C9CB1ECE6F7400B9D9C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86B3C9CA1ECE6F7400B9D9C9 /* Assets.xcassets */; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		869A1E8E1ECE7A9B00AE0756 /* potato-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "potato-icon.png"; sourceTree = "<group>"; };
 		86B3C9C31ECE6F7400B9D9C9 /* Potato.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Potato.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86B3C9C61ECE6F7400B9D9C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		86B3C9C81ECE6F7400B9D9C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 		86B3C9C51ECE6F7400B9D9C9 /* Potato */ = {
 			isa = PBXGroup;
 			children = (
+				869A1E8E1ECE7A9B00AE0756 /* potato-icon.png */,
 				86B3C9C61ECE6F7400B9D9C9 /* AppDelegate.swift */,
 				86B3C9C81ECE6F7400B9D9C9 /* ViewController.swift */,
 				86B3C9CA1ECE6F7400B9D9C9 /* Assets.xcassets */,
@@ -234,6 +237,7 @@
 			files = (
 				86B3C9CB1ECE6F7400B9D9C9 /* Assets.xcassets in Resources */,
 				86B3C9CE1ECE6F7400B9D9C9 /* Main.storyboard in Resources */,
+				869A1E8F1ECE7A9B00AE0756 /* potato-icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +511,7 @@
 				86B3C9EA1ECE6F7400B9D9C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		86B3C9EB1ECE6F7400B9D9C9 /* Build configuration list for PBXNativeTarget "PotatoTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +520,7 @@
 				86B3C9ED1ECE6F7400B9D9C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		86B3C9EE1ECE6F7400B9D9C9 /* Build configuration list for PBXNativeTarget "PotatoUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +529,7 @@
 				86B3C9F01ECE6F7400B9D9C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
